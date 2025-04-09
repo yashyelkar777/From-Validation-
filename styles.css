@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header .Header {
+    background-color: #cd4319;
+    padding: 20px 0;
+}
+
+header h3 {
+    color: white;
+    margin: 0;
+}
+
+/* Container for the form */
+.container {
+    margin-top: 30px;
+}
+
+/* Row styling for spacing */
+.row {
+    margin-bottom: 15px;
+}
+
+/* Form control */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Center the button */
+.text-center button {
+    background-color: #da100c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-center button:hover {
+    background-color: #e81111;
+}
+
+/* Footer styling */
+footer.footer {
+    background-color: #e30f0f;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+footer .footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .col-lg-8, .col-sm-6 {
+        width: 100%;
+    }
+
+    .col-lg-1, .col-sm-2, .col-sm-4, .col-lg-4 {
+        width: 100%;
+    }
+}
